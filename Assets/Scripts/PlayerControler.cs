@@ -27,4 +27,6 @@ public class PlayerControler : MonoBehaviour
         //rotacion
         transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime * horizontalInput);
     }
+
+    
 }
